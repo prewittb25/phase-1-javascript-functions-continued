@@ -5,7 +5,10 @@ function saturdayFun(activity="roller-skate") {
     
     return `This Saturday, I want to ${activity}!`
 
+let saturdayFun = function(activity="bathe my dog"){
 
+    return `This Saturday, I want to ${activity}!`
+}
   }
   
 
@@ -14,19 +17,25 @@ function saturdayFun(activity="roller-skate") {
 
     
     return `This Monday, I will ${activity}.`
+
+    let mondayWork = function(activity="work from home"){
+
+       return "This Monday, I will work from home"
+
+    }
+
+    
   
 
 }
   
-
-
-  let wrapAdjective = function(style="*") {
+  let wrapAdjective = function(great="*") {
 
     
     return function(adjective="special") {
       
        
-        return `You are ${style}${adjective}${style}!`
+        return `You are ${great}${adjective}${great}!`
    
     }
   } 
